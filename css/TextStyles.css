@@ -1,0 +1,54 @@
+﻿
+.TestAlign p {
+    font-size: 21px;
+    margin: 10px;
+}
+
+.p1 {
+    text-align: left;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.p3 {
+    text-align: right;
+}
+
+.p4, .p5 {
+    border: 3px solid green;
+    width: 450px;
+    padding: 11px;
+    text-align: justify;
+}
+
+.TestAlign .p5 {
+    direction: rtl;
+    text-align-last: center;
+}
+
+a {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.HeaderText {
+    /*text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: #0bd40f;
+    text-decoration-thickness: 5px;*/
+    text-decoration: overline dotted #e618e2 6px;
+}
+
+.p6 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 4px 10px red,3px 4px 10px #e8cc33,3px 4px 10px #13e82a;
+    /*background: #0606e9;*/
+    color: white;
+    /*width: fit-content;*/
+    margin: auto;
+    border-radius: 15px;
+}
